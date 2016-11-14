@@ -4,4 +4,4 @@ Name-Real: Michał Sośnicki
 Name-Comment: Fake account
 Name-Email: admin@domain.com
 Expire-Date: 0
-Passphrase: szalonymichal
+Passphrase: password

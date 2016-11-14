@@ -10,8 +10,9 @@ RUN echo "admin:password" | chpasswd
 RUN apt-get install -y gnupg2 inotify-tools
 COPY gpg-params.txt /home/admin/gpg-params.txt
 COPY gpg.conf /home/admin/.gnupg/gpg.conf
+COPY gpg-agent.conf /home/admin/.gnupg/gpg-agent.conf
 COPY init-gpg-admin.sh /home/admin/init-gpg-admin.sh
-RUN chown admin:admin /home/admin/.gnupg /home/admin/.gnupg/gpg.conf /home/admin/init-gpg-admin.sh
+RUN chown admin:admin /home/admin/.gnupg /home/admin/.gnupg/gpg.conf /home/admin/.gnupg/gpg-agent.conf /home/admin/init-gpg-admin.sh
 RUN chmod +x /home/admin/init-gpg-admin.sh
 
 RUN mkdir /home/admin/shared

@@ -14,8 +14,9 @@ RUN echo "user:password" | chpasswd
 # Setup GPG
 RUN apt-get install -y gnupg2 thunderbird enigmail
 COPY gpg.conf /home/user/.gnupg/gpg.conf
+COPY gpg-agent.conf /home/user/.gnupg/gpg-agent.conf
 COPY init-gpg.sh /home/user/init-gpg.sh
-RUN chown user:user /home/user/.gnupg /home/user/.gnupg/gpg.conf /home/user/init-gpg.sh
+RUN chown user:user /home/user/.gnupg /home/user/.gnupg/gpg.conf /home/user/.gnupg/gpg-agent.conf /home/user/init-gpg.sh
 RUN chmod +x /home/user/init-gpg.sh
 
 RUN mkdir /home/user/shared

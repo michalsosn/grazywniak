@@ -1,0 +1,102 @@
+From 
+FCC: imap://anna@mail-server/Sent
+X-Identity-Key: id1
+X-Account-Key: account1
+To: beata@domain.com
+From: anna <anna@domain.com>
+Subject: Test1
+X-Enigmail-Draft-Status: N1110
+Message-ID: <d4519b40-f0a7-a01c-f247-220572f54e5e@domain.com>
+Date: Mon, 14 Nov 2016 00:57:24 +0000
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101
+ Thunderbird/45.4.0
+MIME-Version: 1.0
+Content-Type: multipart/encrypted;
+ protocol="application/pgp-encrypted";
+ boundary="APPDRmnLTGbrSn8Tb8CJ3JnipKogAC8Bv"
+
+This is an OpenPGP/MIME encrypted message (RFC 4880 and 3156)
+--APPDRmnLTGbrSn8Tb8CJ3JnipKogAC8Bv
+Content-Type: application/pgp-encrypted
+Content-Description: PGP/MIME version identification
+
+Version: 1
+
+--APPDRmnLTGbrSn8Tb8CJ3JnipKogAC8Bv
+Content-Type: application/octet-stream; name="encrypted.asc"
+Content-Description: OpenPGP encrypted message
+Content-Disposition: inline; filename="encrypted.asc"
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+hQEMA9mUsJVVAcfVAQf/aMFMpZW4KHIgUqpWMrtUNi4Pa6KMFylfO1Ykj9j51LVJ
+NsHhup8jiGcszN7BJqRK3fgDS4K5QYx8B+pzNgevx99aJM0OGNtAbK7MnMB8mFcu
+e0/2sC9yaeMgr0RxdeZBdGwsE0Yd7lhxUY5dLIKc/x0YEPIRmAO1tO1Sfwc69rIs
+sIBB7GwVoJliIbo0U1ztbCowbNCJH7qWwEofFLXQWkCYfXjarxGlHEPzUIRSCffD
+FCu2kvtetb0ONIF59k68HPN318ii4UzxlO4004YUt+UAW5adRab+CKtnJwEiYySq
+jvLfRVMfCdpCQGKPSlVQtsWFevBGON5haPBHVQ4RXNLAkgGkOGW2gcnLsayEkJtR
+eUwoiZEPadI7VW9kOitXZkYfvxBSgk82hSWOU6dN+uiJzsWp0yxkzIRKLn+77Pha
+Ijcglco4Fn33KrhV65pAPVmRvIqsvqDoQcxhZq9aceoXxUTLC1ZwrEpuNOK0iO87
+iqSWEQrt+rvk7bkDpepu23u1y1vyGsaj28B6CQg0IG2HTVG9TBMiM6TyIOfalxUv
+uDNk91A2Hr3BMfkBbmSTjX9mru6nKwb9zBAWVV9zruIZ+9NEvW48qMkfqH7DJpm5
+Q5bAB7BrnlkF+aAg7+Dfo9BIbS8rKZtmefBnHNNv4G1PVQIwZ+sm/mAJA1aUj5u0
+lDz0047Gfowungjs1jhgFx6pVVKwBxUpyFpOr2XgnKnUOM3XyRL2EY7/4HUcIgNo
+PDnHlfYxJ2mT05tyNwg9ehLLdVbHcIMGzHP0NATAuVWtpmJ8
+=YXpV
+-----END PGP MESSAGE-----
+
+--APPDRmnLTGbrSn8Tb8CJ3JnipKogAC8Bv--
+From 
+FCC: imap://anna@mail-server/Sent
+X-Identity-Key: id1
+X-Account-Key: account1
+To: beata@domain.com
+From: anna <anna@domain.com>
+Subject: Test1
+X-Enigmail-Draft-Status: N1110
+Message-ID: <71558de5-6cc3-6426-4405-cda9643ff75f@domain.com>
+Date: Mon, 14 Nov 2016 01:18:02 +0000
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101
+ Thunderbird/45.4.0
+MIME-Version: 1.0
+Content-Type: multipart/encrypted;
+ protocol="application/pgp-encrypted";
+ boundary="x76xEgGo45QWk4jb0bdn2wF7jimCC5mhJ"
+
+This is an OpenPGP/MIME encrypted message (RFC 4880 and 3156)
+--x76xEgGo45QWk4jb0bdn2wF7jimCC5mhJ
+Content-Type: application/pgp-encrypted
+Content-Description: PGP/MIME version identification
+
+Version: 1
+
+--x76xEgGo45QWk4jb0bdn2wF7jimCC5mhJ
+Content-Type: application/octet-stream; name="encrypted.asc"
+Content-Description: OpenPGP encrypted message
+Content-Disposition: inline; filename="encrypted.asc"
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+hQEMA7SglrWP9w4jAQgAgNCI6/dwa3uS1ExGKbIAn9EnyACJOVMHKret+AP4JE8Y
+iks3bH1kfecj9TYue1SNGeYrxPysS4SuejK+pmsimBLbLDODwrr+XYzoTRRZ3uCI
++IzdnCgrI14vL3/XmL4asR14HXmFfspnDMxkTTpg5kViGlJFSSLSZi4nn98+i6vX
+HFlNarp+gc2Ab1JYR2UqATBu/cRZn/r7eeeT0EJ9HIt/ZbZPftm0N1/325EtKjK1
+sPEuiXhtXDvq/zHGzup/vbS8CBeq+EM8mw1YWfjExZx+EyuhW8zm63oMHSCC4hwW
+JsU8DRyBHNZSEOaipgYwhd6Rwgr6ylrXrUOtqOo1PNLAmgFs3UtsK7i2OOEN4W3E
+z9Inp+Mk+6P9EA396+ymiUCS9+NPe+BzRir4Csmy10xLYt5HWLFXIKv53n1YmJXD
+54GsMRU1CQK+/+bwIw60ywJcR/x+dNUMoxdckGPBJ/wpQM8g0A2lj9t0sJSNwb8Y
+sJevqOqg6B6LJ9nWNL6Rs/xzfLADND6X337ucBhST0eVf4P3Sf1I5UPsoZ80L++0
+MAy9isw+CspVWAGSI3YOpT4LqnDu+afjFH37+RqtO9qS/NgU9dlq3a6sbg/Y9YT+
+4/py9L14bhSvk9wSpcI2aZkuE8GhXkCgo5e2AjxAGeNdov3DUInXTYVCGJ3OXVrO
+BAwW0jibY0x150MAiIoElqwMGMnNVeGYmxMaP0Bu2K+hrPjrUZLfIg+YbyA8cq7l
+pMue0gqp8kx7Ax3Vwoe51t516IokAs+j5veMQzwklBpnD8/hvGcjxlrUbrk=
+=B7uX
+-----END PGP MESSAGE-----
+
+--x76xEgGo45QWk4jb0bdn2wF7jimCC5mhJ--

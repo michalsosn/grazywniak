@@ -3,7 +3,7 @@
   (B8=LastModifiedDate)(B9=RecordKey)(BA=AddrCharSet)(BB=LastRecordKey)
   (BC=ns:addrbk:db:table:kind:pab)(BD=ListName)(BE=ListNickName)
   (BF=ListDescription)(C0=ListTotalAddresses)(C1=LowercaseListName)
-  (C2=ns:addrbk:db:table:kind:deleted)
+  (C2=ns:addrbk:db:table:kind:deleted)(C3=DbRowID)(C4=PreferDisplayName)
   (80=ns:addrbk:db:row:scope:card:all)
   (81=ns:addrbk:db:row:scope:list:all)
   (82=ns:addrbk:db:row:scope:data:all)(83=FirstName)(84=LastName)
@@ -22,26 +22,12 @@
   (B1=BirthMonth)(B2=BirthDay)(B3=Custom1)(B4=Custom2)(B5=Custom3)
   (B6=Custom4)(B7=Notes)>
 
-<(80=0)>
+<(82=1)(81=anna)(80=0)(9A=13)(83=anna@domain.com)(9B=1479090017)>
 {1:^80 {(k^BC:c)(s=9)} 
-  [1:^82(^BB=0)]}
-
-@$${1{@
-< <(a=c)> // (f=iso-8859-1)
-  (C3=DbRowID)(C4=PreferDisplayName)>
-
-<(82=1)(81=anna)(83=anna@domain.com)>
-{-1:^80 {(k^BC:c)(s=9)} 
   [1:^82(^BB=1)]
-  [-1(^87^81)(^8D=0)(^C3=1)(^8E=0)(^C4=0)(^89^83)(^B8=0)(^8A^83)(^B9=1)]}
-@$$}1}@
+  [1(^87^81)(^8D=0)(^C3=1)(^8E=13)(^C4=0)(^89^83)(^B8^9B)(^8A^83)(^B9=1)]}
 
-@$${2{@
-<(84=1478274894)>[-1:^80(^87^81)(^8D=0)(^C3=1)(^8E=1)(^C4=0)(^89^83)
-    (^B8^84)(^8A^83)(^B9=1)]
-@$$}2}@
-
-@$${4{@
-<(85=2)(86=1478276154)>[-1:^80(^87^81)(^8D=0)(^C3=1)(^8E=2)(^C4=0)
-    (^89^83)(^B8^86)(^8A^83)(^B9=1)]
-@$$}4}@
+@$${F{@
+<(9C=14)(9D=1479090019)>[-1:^80(^87^81)(^8D=0)(^C3=1)(^8E=14)(^C4=0)
+    (^89^83)(^B8^9D)(^8A^83)(^B9=1)]
+@$$}F}@

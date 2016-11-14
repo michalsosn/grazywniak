@@ -17,6 +17,6 @@ inotifywait -m /home/admin/shared/user-keys -e create -e moved_to --format "%f" 
     while read FILE; do
         echo "Signing $FILE"
         gpg2 --recv-keys "$FILE"
-        gpg2 --sign-key "$FILE"
+        echo "password" | gpg2 --batch --passphrase-fd 0 --pinentry-mode loopback --quick-sign-key "$FILE"
         gpg2 --send-keys "$FILE"
     done

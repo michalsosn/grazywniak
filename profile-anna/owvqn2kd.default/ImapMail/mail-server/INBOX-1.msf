@@ -1,12 +1,17 @@
 // <!-- <mdb:mork:z v="1.4"/> -->
 < <(a=c)> // (f=iso-8859-1)
   (B8=imapFlags)(B9=highestRecordedUID)(BA=useServerRetention)
-  (BB=charSetOverride)(BC=charSet)(80=ns:msg:db:row:scope:msgs:all)
-  (81=subject)(82=sender)(83=message-id)(84=references)(85=recipients)
-  (86=date)(87=size)(88=flags)(89=priority)(8A=label)(8B=statusOfset)
-  (8C=numLines)(8D=ccList)(8E=bccList)(8F=msgThreadId)(90=threadId)
-  (91=threadFlags)(92=threadNewestMsgDate)(93=children)
-  (94=unreadChildren)(95=threadSubject)(96=msgCharSet)
+  (BB=charSetOverride)(BC=charSet)(BD=folderName)
+  (BE=ns:msg:db:row:scope:ops:all)(BF=ns:msg:db:table:kind:ops)
+  (C0=ns:msg:db:row:scope:pending:all)(C1=ns:msg:db:table:kind:pending)
+  (C2=dateReceived)(C3=ProtoThreadFlags)(C4=keywords)(C5=imageSize)
+  (C6=junkscore)(C7=sender_name)(C8=preview)(C9=storeToken)(CA=gloda-id)
+  (CB=gloda-dirty)(CC=enigmail)(CD=notAPhishMessage)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=statusOfset)(8C=numLines)(8D=ccList)(8E=bccList)
+  (8F=msgThreadId)(90=threadId)(91=threadFlags)(92=threadNewestMsgDate)
+  (93=children)(94=unreadChildren)(95=threadSubject)(96=msgCharSet)
   (97=ns:msg:db:table:kind:msgs)(98=ns:msg:db:table:kind:thread)
   (99=ns:msg:db:table:kind:allthreads)
   (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
@@ -19,10 +24,30 @@
   (AE=fixedBadRefThreading)(AF=onlineName)(B0=MRUTime)(B1=sortType)
   (B2=sortOrder)(B3=viewFlags)(B4=viewType)(B5=sortColumns)
   (B6=columnStates)(B7=highestModSeq)>
-{1:^80 {(k^97:c)(s=9)} }
-{FFFFFFFD:^9A {(k^99:c)(s=9)} }
+<(80=1)(92=fffffffe)(8F=58291ec5)(81=0)>
+[1:m(^9C=1)(^90^92)(^92^8F)(^91=0)(^93=1)(^94=0)]
+<(A1=2)(9F=58291f69)>[2:m(^9C=2)(^90=2)(^92^9F)(^91=0)(^93=1)(^94=1)]
 
-<(80=1)(81=0)(82=INBOX)(83=8083014)(84=1479083262)(85=12)(86=)(87
+<(9C=81)(8B=beata <beata@domain.com>)(8C=anna <anna@domain.com>)(8D
+    =***UNCHECKED*** Test2)(8E
+    =de5a0248-5871-6033-0414-66bcd187936f@domain.com)(90=e04)(91=ffffffff)
+  (94=25|beata)(95=b79)(96=2937)(98=e57)(99=49)(86=)(9A=26)(9B=260101)
+  (97=80)(9D=***UNCHECKED*** Test4)(9E
+    =f589c2f6-7f94-9586-8208-b04a29ad8a14@domain.com)(A0=e00)(A3=19d0)
+  (A4=6608)(A5=e53)>
+{1:^80 {(k^97:c)(s=9)} 
+  [1(^88=81)(^8B=0)(^82^8B)(^85^8C)(^81^8D)(^83^8E)(^86^8F)(^C2^8F)
+    (^89=1)(^87^90)(^9B^91)(^8F^92)(^C3=0)(^C7^94)(^9D^95)(^C9^96)(^9E^98)
+    (^8C=49)(^C8=)(^CA=26)(^CC^9B)(^CB=0)(^8A=0)(^C4=)]
+  [2(^88=80)(^8B=0)(^82^8B)(^85^8C)(^81^9D)(^83^9E)(^86^9F)(^C2^9F)
+    (^89=1)(^87^A0)(^9B^91)(^8F=2)(^C3=0)(^C7^94)(^9D^A3)(^C9^A4)(^9E^A5)
+    (^8C=49)(^C8=)]}
+{2:^80 {(k^98:c)(s=9)2:m } 2 }
+{FFFFFFFE:^80 {(k^98:c)(s=9)1:m } 1 }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} [FFFFFFFE(^95^8D)]
+  [2(^95^9D)]}
+
+<(82=INBOX)(83=8083014)(A2=1479090027)(85=12)(87
     ={"threadCol":{"visible":true,"ordinal":"1"},"flaggedCol":{"visible":true,\
 "ordinal":"3"},"attachmentCol":{"visible":true,"ordinal":"5"},"subjectCol":{"v\
 isible":true,"ordinal":"7"},"unreadButtonColHeader":{"visible":true,"ordinal":\
@@ -35,26 +60,40 @@ ble":false,"ordinal":"27"},"accountCol":{"visible":false,"ordinal":"29"},"prio\
 rityCol":{"visible":false,"ordinal":"31"},"unreadCol":{"visible":false,"ordina\
 l":"33"},"totalCol":{"visible":false,"ordinal":"35"},"locationCol":{"visible":\
 false,"ordinal":"37"},"idCol":{"visible":false,"ordinal":"39"},"enigmailStatus\
-Col":{"visible":false,"ordinal":"41"}})(88=ee00)(89=581cb40b)>
-{1:^9F {(k^A0:c)(s=9u)} 
-  [1(^AC=1)(^AD=0)(^AE=1)(^AF^82)(^88^83)(^A7^82)(^B0^84)(^B1=12)(^B2=1)
-    (^B3=0)(^B4=0)(^B5=)(^B6^87)(^B7=0)(^B8^88)(^A8^89)(^B9=1)(^BA=1)
-    (^A1=1)(^A2=0)(^A6=1)]}
+Col":{"visible":false,"ordinal":"41"}})(88=ee00)(8A=58291d3c)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AC=1)(^AD=0)(^AE=1)(^AF^82)(^88^83)(^A7^82)(^B0^A2)(^B1=12)(^B2=1)
+    (^B3=0)(^B4=0)(^B5=)(^B6^87)(^B7=0)(^B8^88)(^A8^8A)(^B9=2)(^BA=1)
+    (^A1=2)(^A2=1)(^A6=2)]}
 
-@$${1{@
-< <(a=c)> // (f=iso-8859-1)
-  (BD=folderName)(BE=ns:msg:db:row:scope:ops:all)
-  (BF=ns:msg:db:table:kind:ops)>
-<(8B=1479083360)(8A=58290549)>[-1:^9F(^AC=1)(^AD=0)(^AE=1)(^AF^82)
-    (^88^83)(^A7^82)(^B0^8B)(^B1=12)(^B2=1)(^B3=0)(^B4=0)(^B5=)(^B6^87)
-    (^B7=0)(^B8^88)(^A8^8A)(^B9=0)(^BA=1)(^A1=1)(^A2=0)(^A6=1)]
-{-1:^BE {(k^BF:c)(s=9)} }
-@$$}1}@
+@$${D{@
+@$$}D}@
 
-@$${2{@
-< <(a=c)> // (f=iso-8859-1)
-  (C0=customSortCol)>
-@$$}2}@
+@$${E{@
+@$$}E}@
 
-@$${3{@
-@$$}3}@
+@$${F{@
+[2:m(^94=0)]
+<(A6=220184)>[-2:^80(^88=81)(^8B=0)(^82^8B)(^85^8C)(^81^9D)(^83^9E)
+    (^86^9F)(^C2^9F)(^89=1)(^87^A0)(^9B^91)(^8F=2)(^C3=0)(^C7^94)(^9D^A3)
+    (^C9^A4)(^9E^A5)(^8C=49)(^C8=)(^CC^A6)(^CB=1)]
+[1:^9F(^A2=0)]
+@$$}F}@
+
+@$${10{@
+[-2:^80(^88=81)(^8B=0)(^82^8B)(^85^8C)(^81^9D)(^83^9E)(^86^9F)(^C2^9F)
+    (^89=1)(^87^A0)(^9B^91)(^8F=2)(^C3=0)(^C7^94)(^9D^A3)(^C9^A4)(^9E^A5)
+    (^8C=49)(^C8=)(^CC^A6)(^CB=1)(^8A=0)(^C4=)]
+@$$}10}@
+
+@$${11{@
+@$$}11}@
+
+@$${12{@
+<(A7=27)>[-2:^80(^88=81)(^8B=0)(^82^8B)(^85^8C)(^81^9D)(^83^9E)(^86^9F)
+    (^C2^9F)(^89=1)(^87^A0)(^9B^91)(^8F=2)(^C3=0)(^C7^94)(^9D^A3)(^C9^A4)
+    (^9E^A5)(^8C=49)(^C8=)(^CC^A6)(^CB=0)(^8A=0)(^C4=)(^CA=27)]
+@$$}12}@
+
+@$${13{@
+@$$}13}@

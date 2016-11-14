@@ -4,4 +4,4 @@ Name-Real: Beata Kowalska
 Name-Comment: Fake account
 Name-Email: beata@domain.com
 Expire-Date: 0
-Passphrase: szalonabeata
+Passphrase: password
