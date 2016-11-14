@@ -1,0 +1,32 @@
+From - Fri Nov  4 15:54:32 2016
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <anna@domain.com>
+Delivered-To: <beata@domain.com>
+Received: from mail-server.domain.com
+	by mail-server.domain.com (Dovecot) with LMTP id SFj3LDevHFh5BQAA3aSFDQ
+	for <beata@domain.com>; Fri, 04 Nov 2016 15:54:31 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by mail-server.domain.com (Postfix) with ESMTP id B3F8CBE9
+	for <beata@domain.com>; Fri,  4 Nov 2016 15:54:31 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at domain.com
+Received: from mail-server.domain.com ([127.0.0.1])
+	by localhost (mail-server.domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3QJjYL7WeL6z for <beata@domain.com>;
+	Fri,  4 Nov 2016 15:54:30 +0000 (UTC)
+Received: from [172.18.0.2] (grazywniak_mail-user-anna_1.grazywniak_default [172.18.0.2])
+	by mail-server.domain.com (Postfix) with ESMTPSA id 50A81BDA
+	for <beata@domain.com>; Fri,  4 Nov 2016 15:54:30 +0000 (UTC)
+To: beata@domain.com
+From: anna <anna@domain.com>
+Subject: Test
+Message-ID: <e13a9c94-68c9-d726-29df-da74519c93e9@domain.com>
+Date: Fri, 4 Nov 2016 15:54:27 +0000
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101
+ Thunderbird/45.4.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Hello world
+

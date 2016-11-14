@@ -1,0 +1,7 @@
+Key-Type: default
+Subkey-Type: default
+Name-Real: Beata Kowalska
+Name-Comment: Fake account
+Name-Email: beata@domain.com
+Expire-Date: 0
+Passphrase: szalonabeata

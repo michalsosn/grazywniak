@@ -1,0 +1,136 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (8A=charset)(8B=boxFlags)(8C=hierDelim)(8D=onlineName)(8E=aclFlags)
+  (8F=serverTotal)(90=serverUnseen)(91=serverRecent)(92=indexingPriority)
+  (93=folderName)(94=smartFolderName)(95=applyIncomingFilters.empty)
+  (96=applyIncomingFilters)(97=MRUTime)(98=useServerRetention)
+  (99=LastPurgeTime)(9A=nextUID)(9B=lastSyncTimeInSec)
+  (9C=dobayes.mailnews@mozilla.org#junk.empty)
+  (9D=dobayes.mailnews@mozilla.org#junk)
+  (80=ns:msg:db:row:scope:folders:all)(81=ns:msg:db:table:kind:folders)
+  (82=key)(83=flags)(84=totalMsgs)(85=totalUnreadMsgs)
+  (86=pendingUnreadMsgs)(87=pendingMsgs)(88=expungedBytes)(89=folderSize)>
+
+<(80
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server/INBOX.msf)
+  (86=8003014)(81=0)(82=ffffffffffffffff)(83=ISO-8859-1)(84=5e)(85=INBOX)
+  (9F=1478274199)(9A=1)(87
+    =/home/user/.thunderbird/owvqn2kd.default/Mail/Local Folders/Trash.msf)
+  (88=104)(89=Trash)(8A
+    =/home/user/.thunderbird/owvqn2kd.default/Mail/Local Folders/Unsent Messag\
+es.msf)(8B=804)(8D=Outbox)(8E
+    =/home/user/.thunderbird/owvqn2kd.default/Mail/Local Folders)(8F=1c)
+  (90=ffffffff)(91=)(92=Local Folders)(93
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server/Drafts.msf)
+  (94=Drafts)(95
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server/Templates.m\
+sf)(B0=400000)(96=Templates)(97
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server/Sent.msf)
+  (98=Sent)(9D
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server/Archives.ms\
+f)(AF=4000)(9E=Archives)(A0
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server)
+  (A8=2e)(A1
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server/INBOX-1.msf)
+  (B3=8083014)(C8=50f)(B4=200040)(C7=1478276155)(B7=581cae5c)(A4
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server/Sent-1.msf)
+  (A6=8082214)(C0=186)(A7=42040)(A5=60)(B8=581cae6b)(BF=1478274873)
+  (A9
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server/Trash.msf)
+  (AA=82114)(AB=50040)(AC
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server/Drafts-1.ms\
+f)(AD=8082414)(AE=40840)(BD=1478274872)(B1
+    =/home/user/.thunderbird/owvqn2kd.default/ImapMail/mail-server/Junk.msf)
+  (BA=40000000)(B2=Junk)>
+{1:^80 {(k^81:c)(s=9)} 
+  [1(^82^80)(^83^86)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^8B=0)(^8C=5e)(^8D^85)(^8E=0)(^8F=0)(^90=0)(^91=0)(^97^9F)(^98=1)]
+  [2(^82^87)(^83^88)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^93^89)(^98=1)]
+  [3(^82^8A)(^83^8B)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^93^8D)(^98=1)]
+  [4(^82^8E)(^83=1c)(^84^90)(^85^90)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=)
+    (^93^92)]
+  [5(^82^93)(^83=0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^8B=0)(^8C=5e)(^8D^94)(^8E=0)(^8F=0)(^90=0)(^91=0)]
+  [6(^82^95)(^83^B0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^8B=0)(^8C=5e)(^8D^96)(^8E=0)(^8F=0)(^90=0)(^91=0)(^9B=0)]
+  [7(^82^97)(^83=0)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^8B=0)(^8C=5e)(^8D^98)(^8E=0)(^8F=0)(^90=0)(^91=0)]
+  [8(^82^9D)(^83^AF)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^8B=0)(^8C=5e)(^8D^9E)(^8E=0)(^8F=0)(^90=0)(^91=0)(^9B=0)]
+  [9(^82^A0)(^83=0)(^84^90)(^85^90)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=)
+    (^8B=0)(^8C=2e)(^8D=)(^8E=0)(^8F=0)(^90=0)(^91=0)(^9B=0)]
+  [A(^82^A1)(^83^B3)(^84=1)(^85=0)(^86=0)(^87=0)(^88=0)(^89^C8)(^8A^83)
+    (^8B^B4)(^8C=2e)(^8D^85)(^8E=0)(^8F=1)(^90=0)(^91=0)(^97^C7)(^9A=1)
+    (^9B^B7)(^98=1)]
+  [B(^82^A4)(^83^A6)(^84=1)(^85=0)(^86=0)(^87=0)(^88^C0)(^89=0)(^8A^83)
+    (^8B^A7)(^8C=2e)(^8D^98)(^8E=0)(^8F=0)(^90=0)(^91=0)(^92=60)(^9B^B8)
+    (^9A=1)(^98=1)(^97^BF)]
+  [C(^82^A9)(^83^AA)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^8B^AB)(^8C=2e)(^8D^89)(^8E=0)(^8F=0)(^90=0)(^91=0)(^98=1)(^9B=0)]
+  [D(^82^AC)(^83^AD)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89=0)(^8A^83)
+    (^8B^AE)(^8C=2e)(^8D^94)(^8E=0)(^8F=0)(^90=0)(^91=0)(^97^BD)(^9A=1)
+    (^9B^B8)(^98=1)]
+  [E(^82^B1)(^83^BA)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^8B=0)(^8C=5e)(^8D^B2)(^8E=0)(^8F=0)(^90=0)(^91=0)(^9B=0)]}
+
+@$${1{@
+<(C9=1479083262)>[A:^80(^97^C9)]
+@$$}1}@
+
+@$${2{@
+@$$}2}@
+
+@$${3{@
+@$$}3}@
+
+@$${4{@
+@$$}4}@
+
+@$${5{@
+@$$}5}@
+
+@$${6{@
+[-A:^80(^82^A1)(^83^B3)(^84=1)(^85=0)(^86=0)(^87=0)(^88=0)(^89=0)(^8A^83)
+    (^8B^B4)(^8C=2e)(^8D^85)(^8E=0)(^8F=0)(^90=0)(^91=0)(^97^C9)(^9A=1)
+    (^9B^B7)(^98=1)]
+<(CA=1479083359)>[D:^80(^97^CA)]
+@$$}6}@
+
+@$${7{@
+@$$}7}@
+
+@$${8{@
+@$$}8}@
+
+@$${9{@
+@$$}9}@
+
+@$${A{@
+<(CB=1479083360)>[A:^80(^97^CB)]
+@$$}A}@
+
+@$${B{@
+@$$}B}@
+
+@$${C{@
+@$$}C}@
+
+@$${D{@
+[B:^80(^84=0)]
+@$$}D}@
+
+@$${E{@
+@$$}E}@
+
+@$${F{@
+@$$}F}@
+
+@$${10{@
+<(CC=58290599)>[B:^80(^9B^CC)]
+@$$}10}@
+
+@$${11{@
+<(CD=5829059a)>[A:^80(^9B^CD)]
+@$$}11}@

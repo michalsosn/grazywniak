@@ -1,0 +1,37 @@
+version: '2'
+
+services:
+  mail-server:
+    image: tvial/docker-mailserver:latest
+    domainname: domain.com
+    volumes:
+      - ./config/:/tmp/docker-mailserver/
+      - mail-server-data:/var/mail
+  keyserver:
+    build: ./keyserver
+  key-admin:
+    build: ./key-admin
+    volumes:
+      - mail-users-shared:/home/admin/shared/
+  mail-user-anna:
+    build: ./mail-user
+    ports:
+      - "42000:22"
+    volumes:
+      - ./setup-anna/:/home/user/setup/:ro
+      - ./profile-anna/:/home/user/.thunderbird/
+      - mail-users-shared:/home/user/shared/
+  mail-user-beata:
+    build: ./mail-user
+    ports:
+      - "42001:22"
+    volumes:
+      - ./setup-beata/:/home/user/setup/:ro
+      - ./profile-beata/:/home/user/.thunderbird/
+      - mail-users-shared:/home/user/shared/
+
+volumes:
+  mail-server-data:
+    driver: local
+  mail-users-shared:
+    driver: local

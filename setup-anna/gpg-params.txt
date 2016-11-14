@@ -1,0 +1,7 @@
+Key-Type: default
+Subkey-Type: default
+Name-Real: Anna Kowalska
+Name-Comment: Fake account
+Name-Email: anna@domain.com
+Expire-Date: 0
+Passphrase: szalonaanna
