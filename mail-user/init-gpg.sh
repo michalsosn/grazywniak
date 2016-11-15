@@ -16,7 +16,7 @@ ADMIN_KEYID=$(cat /home/user/shared/admin-keyid.txt)
 gpg2 --recv-keys $ADMIN_KEYID
 echo "password" | gpg2 --batch --passphrase-fd 0 --pinentry-mode loopback --quick-sign-key "$ADMIN_KEYID"
 gpg2 --send-keys $ADMIN_KEYID
-echo "$ADMIN_KEYID:4:" | gpg2 --import-ownertrust
+echo "$ADMIN_KEYID:5:" | gpg2 --import-ownertrust
 
 # Share your key with the admin to get it signed
 gpg2 --send-keys $GPGKEY
