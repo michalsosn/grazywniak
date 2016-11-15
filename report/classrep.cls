@@ -6,7 +6,7 @@
 \ProvidesClass{classrep}[2009/11/27 ICS Class Assignment Report]
 
 \LoadClass[12pt,a4paper,authortitle]{mwart}
-\usepackage[OT4]{polski}
+\usepackage[OT4]{fontenc}
 \usepackage{url}
 
 \makeatletter
